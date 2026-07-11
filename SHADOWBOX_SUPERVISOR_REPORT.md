@@ -52,12 +52,13 @@ Think of it as a "burner browser" for your Mac — click a button, get a clean a
 |---|---|
 | Python/FastAPI backend | **Done** — 7/7 tests passing |
 | React/TypeScript UI | **Done** — type-checks clean |
-| Docker Compose (Tor + Chromium) | **Drafted** — ready for review |
-| Tauri desktop shell | **Blocked** — needs your help |
+| Docker Compose (Tor + Chromium) | **Done** — verified on Colima (arm64) |
+| Tauri desktop shell | **Done** — `cargo check` passes clean |
+| End-to-end integration | **Not yet tested** — backend + Tauri app together |
 
 ---
 
-## Build Status — Resolved ✅
+## Build Status — `cargo check` Passes ✅
 
 `cargo check` now **passes cleanly** on this machine. The previous blocker was resolved by running a clean `cargo update` which pulled in compatible versions of the Tauri crate matrix.
 
@@ -71,43 +72,82 @@ Think of it as a "burner browser" for your Mac — click a button, get a clean a
 
 **No uncommitted config files found** — only `tauri.conf.json` exists in `src-tauri/`, and it's already committed.
 
-**Full build log:** `/tmp/cargo_check_full.log` (ends with `Finished dev profile [unoptimized + debuginfo] target(s) in 36.53s` — zero errors, zero warnings.)
+**Full build log:** `/tmp/cargo_check_full.log` (557 lines, zero errors, zero warnings.)
+
+---
+
+## Colima Verification — All Checks Pass ✅
+
+Both containers run natively on arm64 via Colima with no emulation.
+
+### Container Status
+
+```
+NAME                        IMAGE                                           STATUS                    PORTS
+shadowbox-browser-default   lscr.io/linuxserver/ungoogled-chromium:latest   Up 5 seconds
+shadowbox-tor-default       dockurr/tor:latest                              Up 2 minutes (healthy)    0.0.0.0:3000-3001, 0.0.0.0:9050->9050
+```
+
+### Verification Results
+
+| Check | Command | Result |
+|---|---|---|
+| Tor healthcheck | `docker inspect --format='{{.State.Health.Status}}' shadowbox-tor-default` | **healthy** |
+| Browser HTTP UI | `curl -s -o /dev/null -w "%{http_code}" http://localhost:3000` | **200** |
+| Browser HTTPS UI | `curl -sk -o /dev/null -w "%{http_code}" https://localhost:3001` | **200** |
+| Tor routing | `curl -s --socks5-hostname 127.0.0.1:9050 https://check.torproject.org/api/ip` | **`{"IsTor":true,"IP":"45.84.107.174"}`** |
+
+### Issues Found & Fixed in `deploy/compose.yml`
+
+**1. `dperson/torproxy:aarch64` — abandoned, wouldn't bootstrap**
+- Image last updated April 2021
+- Ships Tor 0.4.4.8 — too old to bootstrap on the current Tor network (stuck at 30% with "Consensus not signed by sufficient number of requested authorities")
+- **Fix:** Replaced with `dockurr/tor:latest` (Tor 0.4.9.11, multi-arch, actively maintained, includes curl for healthchecks)
+
+**2. `jlesage/ungoogled-chromium:latest` — doesn't exist on Docker Hub**
+- jlesage only publishes `jlesage/chromium` (plain Chromium, not ungoogled)
+- **Fix:** Replaced with `lscr.io/linuxserver/ungoogled-chromium:latest` (actively maintained, multi-arch with native arm64)
+
+**3. Browser UI ports never published to host**
+- `network_mode: service:tor` causes Docker to ignore `chromium`'s `ports:` section entirely
+- Original file had nothing published (neither the old VNC port 5800 nor a web UI port)
+- **Fix:** Published ports `3000:3000` (HTTP) and `3001:3001` (HTTPS) on the `tor` service instead
+
+**4. Healthcheck `grep` target wrong**
+- `check.torproject.org/api/ip` returns JSON (`{"IsTor":true,"IP":"..."}`), not the old text format containing "Yes"
+- **Fix:** Changed `grep -q Yes` → `grep -q true`
+
+---
+
+## Removed Dead Dependency: `@tauri-apps/plugin-shell`
+
+The JS dependency was listed in `package.json` but never imported anywhere in the source code, and no corresponding `tauri-plugin-shell` crate existed in `Cargo.toml` or was registered in `main.rs`. Removed.
 
 ---
 
 ## What's Left
 
-1. **Colima verification** — confirm the Docker images (`jlesage/ungoogled-chromium`, `dperson/torproxy`) work on Colima on Apple Silicon.
-2. **End-to-end test** — start the backend, launch the Tauri app, verify the full flow works.
-3. **`@tauri-apps/plugin-shell` removed** — the JS dependency was listed in `package.json` but never imported anywhere in the code, and no corresponding Rust crate existed. It has been removed.
+**End-to-end integration test** — start the Python backend, launch the Tauri app, and verify the full flow works (UI talks to backend, backend controls containers).
 
 ---
 
-## Files Needing Attention
-
-```
-frontend/src-tauri/Cargo.toml
-frontend/src-tauri/tauri.conf.json
-frontend/src-tauri/src/main.rs
-frontend/src-tauri/src/commands.rs
-deploy/compose.yml
-```
-
----
-
-## What Works Now (can be tested independently)
+## How to Test What Works Now
 
 ```bash
-# Backend tests
+# 1. Backend tests
 cd backend
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python3 -m pytest tests/test_api.py
 
-# Frontend type check
+# 2. Frontend type check
 cd frontend
 npm install
 npx tsc --noEmit
-```
 
-Both of these pass clean.
+# 3. Colima containers
+colima start
+docker compose -f deploy/compose.yml up -d
+docker compose -f deploy/compose.yml ps
+curl http://localhost:3000    # Browser UI
+```
