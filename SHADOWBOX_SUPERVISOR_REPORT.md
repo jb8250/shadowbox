@@ -57,47 +57,29 @@ Think of it as a "burner browser" for your Mac — click a button, get a clean a
 
 ---
 
-## The Blocker
+## Build Status — Resolved ✅
 
-`cargo check` fails in `frontend/src-tauri/` with Tauri build macro errors. The root cause is a version mismatch between the Tauri crate matrix and the Rust 1.96.0 toolchain on macOS Apple Silicon. No combination of dependency pinning has resolved it from this environment.
+`cargo check` now **passes cleanly** on this machine. The previous blocker was resolved by running a clean `cargo update` which pulled in compatible versions of the Tauri crate matrix.
 
-The error:
+**Environment:**
+- Rust: 1.96.0 (ac68faa20 2026-05-25)
+- Cargo: 1.96.0 (30a34c682 2026-05-25)
+- Tauri: 2.11.2
+- tauri-build: 2.6.2
+- tauri-runtime-wry: 2.11.4
+- wry: 0.55.1
 
-```
-error: invalid type: map, expected path string
-  --> src/main.rs:24:14
-   |
-24 |         .run(tauri::generate_context!())
-   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^
-```
+**No uncommitted config files found** — only `tauri.conf.json` exists in `src-tauri/`, and it's already committed.
 
----
-
-## What We Need From You
-
-1. **A working `Cargo.toml` + `tauri.conf.json` + `Cargo.lock`** — the exact Tauri 2.x dependency versions and config that build successfully on your macOS environment. The known-good pairing is what's missing.
-2. **Which Rust version to use** — should we switch toolchains, or are you using a specific stable that works?
-3. **Colima verification** — once the build is fixed, we need confirmation that the Docker images (`jlesage/ungoogled-chromium`, `dperson/torproxy`) work on Colima on Apple Silicon.
+**Full build log:** `/tmp/cargo_check_full.log` (ends with `Finished dev profile [unoptimized + debuginfo] target(s) in 36.53s` — zero errors, zero warnings.)
 
 ---
 
-## How To Help
+## What's Left
 
-If you have a working Rust/Tauri setup on macOS, please run this and share the output:
-
-```zsh
-cd /path/to/shadowbox/frontend/src-tauri
-rm -rf target/ Cargo.lock
-cargo update
-cargo check
-```
-
-Then share:
-- The `Cargo.lock` file (or at least the `tauri-*` and `wry` version lines)
-- Your Rust version (`rustc --version`)
-- The full `cargo check` output
-
-Alternatively, if there's a specific Tauri 2.x release + Rust stable that's known to work on macOS Apple Silicon, just point us to it and we can adjust.
+1. **Colima verification** — confirm the Docker images (`jlesage/ungoogled-chromium`, `dperson/torproxy`) work on Colima on Apple Silicon.
+2. **End-to-end test** — start the backend, launch the Tauri app, verify the full flow works.
+3. **`@tauri-apps/plugin-shell` removed** — the JS dependency was listed in `package.json` but never imported anywhere in the code, and no corresponding Rust crate existed. It has been removed.
 
 ---
 
