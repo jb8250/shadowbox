@@ -1,6 +1,6 @@
 services:
   tor:
-    image: dperson/torproxy:aarch64
+    image: dockurr/tor:latest
     container_name: shadowbox-tor-default
     ports:
       - "9050:9050"
@@ -12,7 +12,7 @@ services:
     network_mode: bridge
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "curl -s socks5://127.0.0.1:9050 https://check.torproject.org/api/ip | grep -q Yes"]
+      test: ["CMD-SHELL", "curl -s --socks5-hostname 127.0.0.1:9050 --connect-timeout 10 https://check.torproject.org/api/ip | grep -q true"]
       interval: 30s
       timeout: 10s
       retries: 5
