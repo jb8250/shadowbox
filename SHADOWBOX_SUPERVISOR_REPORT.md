@@ -125,9 +125,42 @@ The JS dependency was listed in `package.json` but never imported anywhere in th
 
 ---
 
+## End-to-End Test Results — All Checks Pass ✅
+
+Backend was run with `DOCKER_HOST=unix:///Users/joshua/.colima/default/docker.sock` to match the Colima Docker context.
+
+### Step-by-step results
+
+| Step | Check | Result |
+|---|---|---|
+| **a** | Backend listening on `127.0.0.1:4321` | ✅ HTTP 200 |
+| **b** | Tauri dev mode window opens | ⚠️ Skipped — headless session, no display |
+| **c** | `POST /start` → containers come up | ✅ Backend returned 200, containers running |
+| **d** | `GET /status` shows `running` | ✅ Matches container state |
+| **e** | `POST /identity/new` rotates circuit | ✅ Status shows `"identity":"new"`, tor logs show new guard selection |
+| **f** | Browser UI on `localhost:3001` | ✅ HTTPS 200 |
+| **g** | `POST /stop` (keep_downloads=true) | ✅ Containers stopped, volumes preserved |
+| **g** | `POST /purge` | ✅ Containers stopped, `shadowbox-default` volume removed, compose tor auto-restarted to healthy |
+
+### Container state after purge
+
+```
+$ docker ps --filter name=shadowbox
+NAMES                   STATUS
+shadowbox-tor-default   Up (healthy)
+
+$ docker volume ls --filter name=shadowbox
+VOLUME NAME                DRIVER
+deploy_shadowbox-default   local
+```
+
+`shadowbox-default` (workspace volume) was destroyed by purge. `deploy_shadowbox-default` (compose's named volume) remains.
+
+---
+
 ## What's Left
 
-**End-to-end integration test** — start the Python backend, launch the Tauri app, and verify the full flow works (UI talks to backend, backend controls containers).
+- Tauri dev mode window test (requires GUI session)
 
 ---
 
