@@ -114,7 +114,7 @@ fn open(url: &str) -> std::io::Result<()> {
 
 #[tauri::command]
 pub async fn open_browser_window(_app: AppHandle) -> Result<(), String> {
-    let url = "http://localhost:6901";
+    let url = "https://localhost:3001";
     open(url).map_err(|e| e.to_string())?;
     Ok(())
 }
