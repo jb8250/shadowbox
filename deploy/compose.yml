@@ -1,9 +1,11 @@
 services:
   tor:
-    image: dperson/torproxy:latest
+    image: dperson/torproxy:aarch64
     container_name: shadowbox-tor-default
     ports:
       - "9050:9050"
+      - "3000:3000"
+      - "3001:3001"
     environment:
       - TZ=UTC
       - RUN_AS_ROOT=true
@@ -16,25 +18,21 @@ services:
       retries: 5
 
   chromium:
-    image: jlesage/ungoogled-chromium:latest
+    image: lscr.io/linuxserver/ungoogled-chromium:latest
     container_name: shadowbox-browser-default
     volumes:
       - shadowbox-default:/config
     environment:
-      - DISPLAY=:1
-      - VNC_PASSWORD=
-      - UMASK=000
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - CHROME_CLI=--disable-webrtc --disable-quic --disable-extensions --proxy-server=socks5://127.0.0.1:9050 --host-resolver-rules=MAP * ~NOTFOUND , EXCLUDE 127.0.0.1
+    shm_size: "1gb"
     network_mode: service:tor
     depends_on:
       tor:
         condition: service_healthy
     restart: unless-stopped
-    command:
-      - --disable-webrtc
-      - --disable-quic
-      - --disable-extensions
-      - --proxy-server=socks5://127.0.0.1:9050
-      - --host-resolver-rules=MAP * ~NOTFOUND , EXCLUDE 127.0.0.1
 
 volumes:
   shadowbox-default:
