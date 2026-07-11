@@ -1,0 +1,1135 @@
+[     350ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:17231
+[     364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20)
+    at http://localhost:5173/src/App.tsx:11:3
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:13817:24)
+    at commitPassiveMountOnFiber (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:14756:8)
+    at commitPassiveMountEffects_complete (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:14729:7)
+    at commitPassiveMountEffects_begin (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:14720:12)
+    at commitPassiveMountEffects (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:14711:4)
+    at flushPassiveEffectsImpl (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15795:4)
+    at flushPassiveEffects (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15762:13) @ http://localhost:5173/src/App.tsx:19
+[     366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20)
+    at http://localhost:5173/src/App.tsx:11:3
+    at commitHookEffectListMount (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:13817:24)
+    at invokePassiveEffectMountInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:14902:7)
+    at invokeEffectsInDev (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15950:52)
+    at commitDoubleInvokeEffectsInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15940:27)
+    at flushPassiveEffectsImpl (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15803:4)
+    at flushPassiveEffects (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15762:13)
+    at http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:15675:7 @ http://localhost:5173/src/App.tsx:19
+[     676ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/favicon.ico:0
+[    3366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[    4617ms] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at start (http://localhost:5173/src/App.tsx:24:9)
+    at HTMLUnknownElement.callCallback (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3141:11)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3161:14)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3200:32)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3213:26)
+    at executeDispatch (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6133:4)
+    at processDispatchQueueItemsInOrder (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6147:5)
+    at processDispatchQueue (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6155:5)
+    at dispatchEventsForPlugins (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6163:4)
+[    6365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[    9365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   12368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   15365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   18367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   21365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   24365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   26482ms] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at start (http://localhost:5173/src/App.tsx:24:9)
+    at HTMLUnknownElement.callCallback (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3141:11)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3161:14)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3200:32)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3213:26)
+    at executeDispatch (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6133:4)
+    at processDispatchQueueItemsInOrder (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6147:5)
+    at processDispatchQueue (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6155:5)
+    at dispatchEventsForPlugins (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6163:4)
+[   27365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   30366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   33367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   36367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   39369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   42368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   45369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   48370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   51369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   54370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   57370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   60370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   63371ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   66370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   69370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   72370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   75370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   78370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   81370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   84370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   87370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   90370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   93370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   96370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[   99370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  102369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  105370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  108370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  111370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  114370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  117369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  120370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  123369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  126369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  129370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  132369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  135369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  138369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  141369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  144369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  147369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  150369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  153370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  156369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  159368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  162368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  165369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  168368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  171368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  174370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  177369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  180369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  183368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  186369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  189369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  192368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  195369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  198368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  201368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  204368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  207368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  210366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  213368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  216367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  219368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  222367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  225368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  228367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  231367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  234367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  237368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  240368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  243367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  246366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  249367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  252367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  255367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  258366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  261367ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  264366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  267366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  270366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  273371ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  276366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  279370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  282368ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  285366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  288366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  291366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  294366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  297366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  300366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  303366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  306365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  309365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  312365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  315366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  318366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  321366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  323020ms] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at start (http://localhost:5173/src/App.tsx:24:9)
+    at HTMLUnknownElement.callCallback (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3141:11)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3161:14)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3200:32)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:3213:26)
+    at executeDispatch (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6133:4)
+    at processDispatchQueueItemsInOrder (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6147:5)
+    at processDispatchQueue (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6155:5)
+    at dispatchEventsForPlugins (http://localhost:5173/node_modules/.vite/deps/react-dom-CcnZupb6.js?v=b0a20e75:6163:4)
+[  324364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  327365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  330365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  333366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  336366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  339366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  342366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  345370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  348364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  351365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  354369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  357365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  360365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  363364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  366364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  369365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  372365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  375365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  378364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  381370ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  384363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  387366ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  390363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  393364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  396364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  399365ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  402363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  405363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  408363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  411363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  414369ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  417364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  420363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  423363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  426363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  429363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  432363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  435363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  438362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  441363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  444363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  447362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  450362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  453363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  456363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  459363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  462363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  465362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  468362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  471361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  474362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  477361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  480362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  483364ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  486361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  489363ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  492361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  495361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  498362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  501361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  504362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  507362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  510361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  513361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  516361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  519361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  522361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  525362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  528362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  531360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  534360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  537361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  540361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  543361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  546360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  549361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  552362ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  555360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  558360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  561360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  564360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  567360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  570361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  573360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  576360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  579359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  582359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  585360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  588358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  591360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  594359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  597361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  600360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  603359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  606359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  609359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  612358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  615359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  618358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  621359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  624358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  627360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  630359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  633359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  636359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  639359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  642358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  645359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  648359ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  651358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  654358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  657358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  660357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  663358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  666358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  669357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  672358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  675357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  678361ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  681358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  684357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  687358ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  690357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  693357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  696357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  699357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  702357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  705356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  708357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  711357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  714357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  717356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  720356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  723357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  726356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  729357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  732356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  735356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  738356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  741355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  744356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  747356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  750356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  753355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  756356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  759355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  762356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  765355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  768357ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  771355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  774355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  777354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  780355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  783355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  786355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  789356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  792355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  795354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  798354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  801355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  804355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  807355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  810355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  813354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  816354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  819354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  822355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  825354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  828354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  831355ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  834354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  837354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  840353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  843354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  846354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  849356ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  852354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  855353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  858360ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  861354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  864354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  867353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  870353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  873354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  876353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  879354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  882353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  885353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  888352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  891353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  894353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  897354ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  900352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  903353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  906353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  909353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  912352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  915353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  918352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  921352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  924352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  927353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  930352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  933352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  936352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  939352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  942353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  945352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  948351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  951353ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  954351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  957351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  960351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  963351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  966351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  969352ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  972351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  975351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  978351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  981351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  984351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  987351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  990351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  993351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  996351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[  999351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1002350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1005351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1008350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1011351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1014351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1017351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1020351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1023350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1026350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1029350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1032349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1035350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1038349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1041350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1044349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1047349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1050349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1053349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1056349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1059349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1062351ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1065349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1068349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1071350ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1071689ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:992
+[ 1074347ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19
+[ 1077349ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'invoke')
+    at invoke (http://localhost:5173/node_modules/.vite/deps/@tauri-apps_api_core.js?v=fe20879a:204:36)
+    at refresh (http://localhost:5173/src/App.tsx:17:20) @ http://localhost:5173/src/App.tsx:19

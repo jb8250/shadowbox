@@ -1,0 +1,40 @@
+services:
+  tor:
+    image: dperson/torproxy:latest
+    container_name: shadowbox-tor-default
+    ports:
+      - "9050:9050"
+    environment:
+      - TZ=UTC
+      - RUN_AS_ROOT=true
+    network_mode: bridge
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s socks5://127.0.0.1:9050 https://check.torproject.org/api/ip | grep -q Yes"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  chromium:
+    image: jlesage/ungoogled-chromium:latest
+    container_name: shadowbox-browser-default
+    volumes:
+      - shadowbox-default:/config
+    environment:
+      - DISPLAY=:1
+      - VNC_PASSWORD=
+      - UMASK=000
+    network_mode: service:tor
+    depends_on:
+      tor:
+        condition: service_healthy
+    restart: unless-stopped
+    command:
+      - --disable-webrtc
+      - --disable-quic
+      - --disable-extensions
+      - --proxy-server=socks5://127.0.0.1:9050
+      - --host-resolver-rules=MAP * ~NOTFOUND , EXCLUDE 127.0.0.1
+
+volumes:
+  shadowbox-default:
