@@ -5,6 +5,47 @@
 
 ---
 
+## What Is ShadowBox?
+
+ShadowBox is a **self-contained anonymous browsing workspace** for macOS. The goal is a single desktop app that:
+
+1. **Launches a disposable, Tor-routed browser** — an Ungoogled Chromium container that routes all traffic through Tor
+2. **Provides a control panel UI** — start/stop the workspace, rotate your identity (new Tor circuit), purge all data, toggle persistence
+3. **Runs fully locally** — everything runs in Docker containers on your machine via Colima, no cloud dependencies
+4. **Wraps it in a native macOS app** — built with Tauri (Rust + web UI) so it feels like a real desktop application, not a terminal tool
+
+Think of it as a "burner browser" for your Mac — click a button, get a clean anonymous browsing session, click another button and everything disappears.
+
+---
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────┐
+│  Tauri Desktop App (Rust shell)             │
+│  ┌───────────────────────────────────────┐  │
+│  │  React/TypeScript UI (control panel)  │  │
+│  └──────────────┬────────────────────────┘  │
+│                 │ HTTP (localhost:4321)      │
+│  ┌──────────────▼────────────────────────┐  │
+│  │  Python FastAPI Backend               │  │
+│  │  (start/stop/purge/identity/status)   │  │
+│  └──────────────┬────────────────────────┘  │
+│                 │ Docker API                 │
+│  ┌──────────────▼────────────────────────┐  │
+│  │  Colima / Docker Runtime              │  │
+│  │  ┌──────────┐  ┌──────────────────┐   │  │
+│  │  │ Tor      │  │ Ungoogled        │   │  │
+│  │  │ Container│  │ Chromium         │   │  │
+│  │  │ (proxy)  │◄─┤ Container        │   │  │
+│  │  └──────────┘  │ (browser)        │   │  │
+│  │                └──────────────────┘   │  │
+│  └───────────────────────────────────────┘  │
+└─────────────────────────────────────────────┘
+```
+
+---
+
 ## What We Have
 
 | Layer | Status |
