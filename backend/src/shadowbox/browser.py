@@ -36,7 +36,8 @@ class BrowserController:
         self.network_name = "shadowbox-net"
         self.container_name_prefix = "shadowbox-browser-"
         self.volume_prefix = "shadowbox-"
-        self.vnc_port = 6901
+        self.vnc_port = 3001
+        self.image = "lscr.io/linuxserver/ungoogled-chromium:latest"
 
     def start(self, workspace_name: str) -> str:
         volume_name = f"{self.volume_prefix}{workspace_name}"
@@ -52,7 +53,7 @@ class BrowserController:
                 container.start()
         except NotFound:
             container = self.client.containers.run(
-                "jlesage/ungoogled-chromium:latest",
+                self.image,
                 name=container_name,
                 detach=True,
                 ports={f"{self.vnc_port}/tcp": self.vnc_port},
