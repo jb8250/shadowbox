@@ -35,3 +35,7 @@ frontend/src-tauri/target/
 
 # Docker
 deploy/chromium/build/
+
+# Kilo / AI tooling artifacts
+.kilo/
+.playwright-mcp/
