@@ -52,7 +52,7 @@ Now that the app compiles perfectly, the next phase is **Live Environment Testin
 ### 1. End-to-End Container Testing
 - The Docker setup needs to be tested live using **Docker Desktop or Colima**.
 - **Action:** Run the Tauri app, click "Open Browser", and verify the backend correctly spins up the Tor container, waits for the 100% bootstrap signal, and then launches the Chromium container.
-- **Action:** Verify the VNC feed opens on `localhost:6901` and that Chromium is successfully routing traffic through Tor (e.g., check Tor check page).
+- **Action:** Verify the VNC feed opens on `localhost:3001` and that Chromium is successfully routing traffic through Tor (e.g., check Tor check page).
 
 ### 2. Application Lifecycle Management
 - Right now, if the user closes the Tauri window, the containers might keep running in the background.

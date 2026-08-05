@@ -12,6 +12,7 @@ def _make_container(name: str, status: str = "running") -> MagicMock:
     container.status = status
     exec_result = MagicMock()
     exec_result.exit_code = 0
+    exec_result.output = b"250 OK\r\n250 OK\r\n"
     container.exec_run.return_value = exec_result
     container.logs.return_value = b"Bootstrapped 100%"
     return container
@@ -40,7 +41,7 @@ def test_start(mock_docker: MagicMock) -> None:
     assert r.status_code == 200
     body = r.json()
     assert body["status"] == "running"
-    assert body["url"] == "http://localhost:6901"
+    assert body["url"] == "http://localhost:3001"
 
 
 @patch("shadowbox.main.docker")
