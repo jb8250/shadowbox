@@ -1,5 +1,11 @@
 # ShadowBox Setup
 
+## Current Development Plan
+
+Active development follows **[ROADMAP.md](ROADMAP.md)**.
+
+Older implementation reports and troubleshooting notes are retained under **[docs/archive/](docs/archive/)** for historical reference.
+
 ## Prerequisites
 
 - macOS Apple Silicon
