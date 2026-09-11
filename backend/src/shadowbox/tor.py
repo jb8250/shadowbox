@@ -27,7 +27,7 @@ class TorController:
             self._wait_until_ready(container)
         except NotFound:
             container = self.client.containers.run(
-                "dperson/torproxy:latest",
+                "dockurr/tor:latest",
                 name=container_name,
                 detach=True,
                 ports={f"{self.socks_port}/tcp": self.socks_port},
@@ -53,13 +53,27 @@ class TorController:
         raise RuntimeError("Tor container failed to bootstrap within timeout")
 
     def new_identity(self, workspace_name: str) -> None:
+        """Send a genuine NEWNYM signal to the Tor control port to rotate circuits.
+
+        The dockurr/tor image uses password authentication by default with
+        PASSWORD="password". AUTHENTICATE must include the password in quotes.
+        """
         container_name = f"{self.container_name_prefix}{workspace_name}"
         container = self.client.containers.get(container_name)
-        exec_result = container.exec_run(
-            "torify curl --socks5-hostname 127.0.0.1:9050 https://check.torproject.org/api/ip"
+        # Send AUTHENTICATE "password" + SIGNAL NEWNYM + QUIT to control port 9051
+        cmd = (
+            'printf "AUTHENTICATE \\\"password\\\"\\r\\nSIGNAL NEWNYM\\r\\nQUIT\\r\\n" | '
+            'timeout 5 nc 127.0.0.1 9051'
         )
+        exec_result = container.exec_run(["sh", "-c", cmd])
         if exec_result.exit_code != 0:
-            raise RuntimeError("Tor identity reset (NEWNYM) not yet available")
+            raise RuntimeError(
+                f"Tor NEWNYM signal failed (exit {exec_result.exit_code}): "
+                f"{exec_result.output.decode('utf-8', errors='replace').strip()}"
+            )
+        output = exec_result.output.decode("utf-8", errors="replace").strip()
+        if "250 OK" not in output:
+            raise RuntimeError(f"Tor NEWNYM signal rejected: {output}")
 
     def stop(self, workspace_name: str) -> None:
         container_name = f"{self.container_name_prefix}{workspace_name}"
